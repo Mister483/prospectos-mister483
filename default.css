@@ -33,6 +33,10 @@ video {
     max-width: 100%;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 
 /* Main code */
 
@@ -44,6 +48,34 @@ footer {
     font-size: 1.3rem;
     font-weight: bold;
     padding: 10px;
+}
+
+main {
+    min-height: 100dvh;
+}
+
+.fancy::after {
+    content: "Click me!";
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.half-w {
+    width: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+.highlight {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.transparent {
+    background-color: transparent;
+    color: transparent;
 }
 
 

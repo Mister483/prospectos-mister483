@@ -1,0 +1,49 @@
+
+#index main {
+    > div:first-of-type {
+        margin: 10px 0 50px;
+        text-align: center;
+
+        div {
+            display: inline-block;
+
+            p {
+                font-family: "Bebas Neue";
+                font-size: 5rem;
+                font-weight: bold;
+                margin-bottom: -15px;
+            }
+
+            hr {
+                border: 10px solid black;
+            }
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px 10px 50px;
+    }
+
+    #introduction,
+    #video-game-dev {
+        background-color: black;
+        color: white;
+    }
+
+    #introduction {
+        > div:first-of-type {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    #decisions {
+        li::marker {
+            color: blue;
+        }
+    }
+}
